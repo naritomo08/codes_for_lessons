@@ -17,7 +17,7 @@ spec:
     image: maho/c-cloner:0.1
     env:
     - name: CONTENTS_SOURCE_URL
-      value: "https://github.com/takara9/web-contents"
+      value: "https://github.com/naritomo08/web-contentsk8s"
     volumeMounts:
     - mountPath: /data
       name: contents-vol
