@@ -22,7 +22,7 @@ spec:
     readinessProbe:
       exec:
         command:
-	- cat
-	- /tmp/ready
+        - cat
+        - /tmp/ready
       initialDelaySeconds: 6
       periodSeconds: 3
