@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
       - name: pn-generator
-        image: maho/pn_generator:0.1
+        image: naritomojp/pn_generator:0.1
         env:
         - name: A_START_NUM
           value: "2"
